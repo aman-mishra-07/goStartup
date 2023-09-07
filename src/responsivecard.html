@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lister Pros</title>
+    <link rel="stylesheet" href="../dist/output.css">
+</head>
+<body>
+    <aside class="hidden lg:fixed left-0 inset-y-0 w-52 bg-slate-50 lg:flex flex-col">
+        <header>
+            <a href="#">
+                <img src="../src/img/logolisterPros.svg" alt="logo" class="p-2">
+            </a>
+        </header>
+        <nav class="flex-1">
+            <ul class="flex flex-col p-4">
+                <li><a href="#" class="flex gap-2 rounded text-white py-2 px-0.5 bg-blue-500">Home</a></li>
+            </ul>
+        </nav>
+        <footer>
+            <form action="#">
+                <form action="#">
+                    <button type="submit">
+                        Logout
+                    </button>
+                </form>
+            </form>
+        </footer>
+    </aside>
+    <main class="w-full lg:w-[calc(100%-13rem)] ml-auto bg-slate-200 min-h-screen">
+        <header class="w-full bg-white px-4 py-4 sm:py-2 flex justify-between items-center">
+            <div class="">
+                <a href="#" class=" sm:hidden">
+                    <img src="../src/img/logolisterPros.svg" alt="logo" class="h-8">
+                </a>
+                <span class="hidden sm:block">Welcome, herry</span>
+            </div>
+           <div class="">
+            <a href="#" class="hidden sm:block">
+                <span class="hidden sm:flex h-8 w-8 rounded-full bg-yellow-500 items-center justify-center">
+                    <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" aria-labelledby="userIconTitle" fill="none" stroke="currentColor"><title id="userIconTitle">User</title><path stroke-linecap="round" d="M5.5,19.5 C7.83333333,18.5 9.33333333,17.6666667 10,17 C11,16 8,16 8,11 C8,7.66666667 9.33333333,6 12,6 C14.6666667,6 16,7.66666667 16,11 C16,16 13,16 14,17 C14.6666667,17.6666667 16.1666667,18.5 18.5,19.5"></path><circle cx="12" cy="12" r="10"></circle></svg>
+                </span>
+            </a>
+            <button type="button" class="sm:hidden">
+                <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path></svg>
+            </button>
+           </div>
+        </header>
+        <section class="p-4 md:p-6 space-y-4 md:space-y-8">
+            <h1 class="text-2xl">Manage Customers</h1>
+            <div class="flex justify-between items-center flex-wrap gap-2">
+                <form action="#">
+                    <div>
+                        <label for="search">
+                            <input type="search" name="search" id="search" class="p-2 w-72 rounded-lg" placeholder=" Search ">
+                        </label>
+                    </div>
+                </form>
+                <a href="#" class="flex-grow sm:flex-grow-0 px-4 py-2 bg-blue-600 text-white rounded-md">+ Add Members</a>
+            </div>
+            <div class="w-full shadow-md lg:rounded-md lg:overflow-hidden flex flex-col gap-2 lg:gap-0">
+                <div class="hidden bg-white rounded-md shadow-md lg:rounded-none lg:shadow-none p-2 space-y-2 md:space-y-0 lg:grid md:grid-cols-2 lg:grid-cols-8 lg:gap-2">
+                    <div class=" lg:flex lg:gap-4 lg:col-span-2 ">
+                        <span class="hidden lg:block w-8">Sr</span>
+                        <h2 class="text-base flex-1">Name</h2>  
+                    </div>
+                    <div class="flex justify-start gap-2 divide-x lg:divide-none  md:row-start-2  lg: lg:row-start-1 lg:col-span-3 lg:col-start-3">
+                        <div class=" md:flex-1 lg:flex-grow-0 ">
+                            <span class="lg:hidden">
+                                <span>example@gmail.com</span>
+                                <span class="block">active</span>
+                               <span class="lg:hidden">
+                                <span>sale : 0</span>
+                               </span>
+                            </span>
+                        </div>
+                        <div class="px-2 md:flex-1 flex flex-col lg:flex-row lg:p-0 lg:flex-1 ">
+                            <span class="flex-1">Phone No</span>
+                            <span class="flex-1">Regestration no.</span>
+                        </div>
+                    </div>
+                    <div class="w-full flex items-center justify-between md:justify-end gap-2 border-t md:border-none py-2 md:py-0 lg:justify-between lg:items-start  lg:col-start-6 lg:col-span-3">
+                        <div class="flex-1">
+                            <span class="whitespace-nowrap">Total orders</span>
+                        </div>
+                        <div class="flex-1 ">
+                            <span class="">Sale Tax</span>
+                        </div>
+                        <div class="flex-1">
+                            <span class="s">Status </span>
+                        </div>
+                        <div class="flex-1 ">
+                           <span>Action</span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="bg-white rounded-md shadow-md lg:rounded-none lg:shadow-none p-2 space-y-2 md:space-y-0 grid md:grid-cols-2 lg:grid-cols-8 lg:gap-2">
+                    <div class=" lg:flex lg:gap-4 lg:col-span-2 ">
+                        <span class="hidden lg:block w-8">1</span>
+                        <div>
+                            <h2 class="font-bold text-xl lg:text-base flex-1">Harry Loyyed</h2>
+                            <p class="hidden lg:block">example@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="flex justify-start gap-2 divide-x lg:divide-none  md:row-start-2  lg: lg:row-start-1 lg:col-span-3 lg:col-start-3">
+                        <div class=" md:flex-1 lg:flex-grow-0 ">
+                            <span class="lg:hidden">
+                                <span>example@gmail.com</span>
+                                <span class="block">active</span>
+                               <span class="lg:hidden">
+                                <span>sale : 0</span>
+                               </span>
+                            </span>
+                        </div>
+                        <div class="px-2 md:flex-1 flex flex-col lg:flex-row lg:p-0 lg:flex-1 ">
+                            <span class="lg:flex-1">Phone No</span>
+                            <span class="lg:flex-1">4 january 2022</span>
+                        </div>
+                    </div>
+                    <div class="w-full flex items-center justify-between md:justify-end  gap-2 border-t md:border-none py-2 md:py-0 lg:justify-between lg:items-start  lg:col-start-6 lg:col-span-3">
+                        <div class="flex-1 md:text-end lg:text-start">
+                            <a href="#">
+                                <span class="lg:hidden">Total orders :</span>
+                                <span>0</span>
+                            </a>
+                        </div>
+                        <div class="flex-1 hidden lg:block ">
+                            <span class="inline-block  px-2 rounded-full bg-slate-400">active</span>
+                        </div>
+                        <div class="lg:flex-1">
+                            <span class="inline-block  px-2 rounded-full bg-slate-400">active </span>
+                        </div>
+                        <div class="lg:flex-1 flex md:justify-end lg:justify-start">
+                           
+                            <button type="button">button</button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="bg-white rounded-md lg:rounded-none shadow-md lg:shadow-none p-2 space-y-2 md:space-y-0 grid md:grid-cols-2 lg:grid-cols-8 lg:gap-2">
+                    <div class=" lg:flex lg:gap-4 lg:col-span-2 ">
+                        <span class="hidden lg:block w-8">1</span>
+                        <div>
+                            <h2 class="font-bold text-xl lg:text-base flex-1">Harry Loyyed</h2>
+                            <p class="hidden lg:block">example@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="flex justify-start gap-2 divide-x lg:divide-none  md:row-start-2  lg: lg:row-start-1 lg:col-span-3 lg:col-start-3">
+                        <div class=" md:flex-1 lg:flex-grow-0 ">
+                            <span class="lg:hidden">
+                                <span>example@gmail.com</span>
+                                <span class="block">active</span>
+                               <span class="lg:hidden">
+                                <span>sale : 0</span>
+                               </span>
+                            </span>
+                        </div>
+                        <div class="px-2 md:flex-1 flex flex-col lg:flex-row lg:p-0 lg:flex-1 ">
+                            <span class="lg:flex-1">Phone No</span>
+                            <span class="lg:flex-1">4 january 2022</span>
+                        </div>
+                    </div>
+                    <div class="w-full flex items-center justify-between md:justify-end  gap-2 border-t md:border-none py-2 md:py-0 lg:justify-between lg:items-start  lg:col-start-6 lg:col-span-3">
+                        <div class="flex-1 md:text-end lg:text-start">
+                            <a href="#">
+                                <span class="lg:hidden">Total orders :</span>
+                                <span>0</span>
+                            </a>
+                        </div>
+                        <div class="flex-1 hidden lg:block ">
+                            <span class="inline-block  px-2 rounded-full bg-slate-400">active</span>
+                        </div>
+                        <div class="lg:flex-1">
+                            <span class="inline-block  px-2 rounded-full bg-slate-400">active </span>
+                        </div>
+                        <div class="lg:flex-1 flex md:justify-end lg:justify-start">
+                           
+                            <button type="button">button</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

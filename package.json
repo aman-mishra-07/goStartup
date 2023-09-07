@@ -1,0 +1,20 @@
+{
+  "name": "gotreck-travel-website",
+  "version": "1.0.0",
+  "description": "Travel Website",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "keywords": [
+    "trevel",
+    "easybooking",
+    "better",
+    "offers"
+  ],
+  "author": "aman",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}

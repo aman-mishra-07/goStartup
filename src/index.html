@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <title>Gotreck Website</title>
+</head>
+
+<body>
+    <header class="px-16 py-1 flex justify-between items-center">
+        <div>
+            <span class="text-3xl font-bold">GoTreck</span>
+        </div>
+
+        <nav>
+            <ul class="flex gap-4 text-slate-600 font-semibold">
+                <li><a href="#" class="hover:text-black">Home</a></li>
+                <li><a href="#" class="hover:text-black">About</a></li>
+            </ul>
+        </nav>
+        <div class="flex items-center gap-4">
+            <span class="flex items-center gap-2">
+                <span>usd</span>
+                <div class="w-8 h-8 border overflow-hidden rounded-full">
+                    <img src="img/usflag.jpg" alt="flag" class="h-full" />
+                </div>
+            </span>
+
+            <a href="#" class="block py-2 px-3 bg-blue-500 text-white rounded-md">Sign Up</a>
+        </div>
+    </header>
+    <main>
+        <section class="relative w-full min-h-screen px-16 bg-[url('https://www.easemytrip.com/images/desk-img/bg-world-map.jpg')] bg-no-repeat bg-top">
+           
+            <div class="flex items-center justify-center flex-col pt-20">
+                <h1 class="text-6xl font-extrabold text-center leading-tight m-auto z-40">Unlock Your Travel <br> Dreams Book Your Flight</h1>
+                <img src="../src/img/plane.png" alt="plane image" class="-mt-20 h-80">
+           </div>
+           <div class="relative px-32 pt-10 pb-20 shadow-xl rounded-3xl border bg-white">
+            <form action="#" class="space-y-4">
+                <div class="flex justify-between items-center">
+                    <div class="flex gap-2">
+                        <label for="economy">
+                            <input type="radio" name="seatClass" id="economy" class="sr-only peer">
+                            <span class="px-2 py-1 inline-block border peer-checked:shadow-lg rounded text-sm border-blue-600 peer-checked:text-white peer-checked:bg-blue-600">Economy</span>
+                        </label>
+                      
+                    </div>
+    
+                    <div class="flex gap-4">
+                        <label for="oneway" class="flex items-center gap-2">
+                            <input type="radio" name="triptype" id="oneway" class="peer sr-only">
+                            <span class="h-3 w-3 rounded-full ring ring-blue-600 peer-checked:border-2 peer-checked:border-white peer-checked:bg-blue-600">
+                            </span>
+                            <span class="inline-block">One Way</span>
+                        </label>
+                    </div>
+                </div>
+                <div class="grid grid-flow-col gap-4">
+                    <div class="bg-slate-100 rounded p-2 text-slate-700 space-y-1">
+                        <div class="flex justify-between">
+                            <h2 class="text-xs">From</h2>
+                            <span>
+                                <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                                    <g>
+                                        <path fill="none" d="M0 0h24v24H0z"></path>
+                                        <path d="M10.478 11.632L5.968 4.56l1.931-.518 6.951 6.42 5.262-1.41a1.5 1.5 0 0 1 .776 2.898L5.916 15.96l-.776-2.898.241-.065 2.467 2.445-2.626.704a1 1 0 0 1-1.133-.48L1.466 10.94l1.449-.388 2.466 2.445 5.097-1.366zM4 19h16v2H4v-2z"></path>
+                                    </g>
+                                </svg>
+                            </span>
+                        </div>
+                        <p class="font-extrabold">Slyhet</p>
+                        <p class="text-xs line-clamp-1 text-ellipsis">Lorem ipsum dolor sit amet. loremmyname game</p>
+                    </div>
+                    
+                    <div class="bg-slate-100 rounded p-2 text-slate-700 space-y-1">
+                        <div class="flex justify-between">
+                            <h2 class="text-xs">To</h2>
+                            <span>
+                                <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 16 16" fill="currentColor"><path fill="currentColor" d="M13.64 7c-0.71-0.2-1.89-0.43-3.23-0.67l-3.82-4.24c-0.209-0.23-0.462-0.416-0.746-0.544l-1.194-0.546c-0.090 0-0.15 0-0.1 0.11s1.45 2.89 2.29 4.59c-1.84-0.29-3.5-0.53-4.23-0.63-0.258-0.047-0.474-0.198-0.608-0.406l-0.722-1.074c-0.115-0.168-0.28-0.294-0.474-0.358l-0.806-0.232 0.61 3.26c0.067 0.34 0.318 0.609 0.644 0.699 1.326 0.381 4.816 1.341 7.526 1.921 6 1.28 6.8 1.28 7.12 0.91s-0.67-2.38-2.26-2.79z"></path><path fill="currentColor" d="M0 13h16v1h-16v-1z"></path></svg>
+                            </span>
+                        </div>
+                        <p class="font-extrabold">London</p>
+                        <p class="text-xs line-clamp-1 text-ellipsis">Lorem ipsum dolor sit amet. loremmyname game</p>
+                    </div>
+                    
+                    <div class="bg-slate-100 rounded p-2 text-slate-700 flex gap-4 ">
+                        <div class="flex items-center">
+                            <svg class="w-6 h-6 text-slate-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5"></path>
+                              </svg>
+                        </div>
+                        <div class="space-y-1">
+                            <h3 class="text-xs">Journey Date</h3>
+                            <p class="font-extrabold">08/08/2023</p>
+                            <p class="text-xs">Thrusday</p>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-slate-100 rounded p-2 text-slate-700 space-y-1">
+                        <h2 class="text-xs">Pessanger & class</h2>
+                        <p class=" font-semibold"><span>01</span>Pessanger</p>
+                        <p class="text-xs">Economy</p>
+                    </div>
+                    
+                </div>
+                <div class="absolute left-1/2 -translate-x-1/2 -bottom-4">
+                    <button type="submit" class="py-3 px-8 bg-blue-500 shadow text-white font-semibold rounded-md">Search</button>
+                </div>
+            </form>
+           </div>
+    
+           <div class="py-16 flex items-center justify-between gap-20">
+                <h2 class="hidden">contact details</h2>
+                <div class="relative p-8 border rounded-xl flex gap-4 bg-white hover:shadow-lg">
+                    <div>
+                        <svg class="w-12 h-12 text-blue-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M20.25 8.511c.884.284 1.5 1.128 1.5 2.097v4.286c0 1.136-.847 2.1-1.98 2.193-.34.027-.68.052-1.02.072v3.091l-3-3c-1.354 0-2.694-.055-4.02-.163a2.115 2.115 0 01-.825-.242m9.345-8.334a2.126 2.126 0 00-.476-.095 48.64 48.64 0 00-8.048 0c-1.131.094-1.976 1.057-1.976 2.192v4.286c0 .837.46 1.58 1.155 1.951m9.345-8.334V6.637c0-1.621-1.152-3.026-2.76-3.235A48.455 48.455 0 0011.25 3c-2.115 0-4.198.137-6.24.402-1.608.209-2.76 1.614-2.76 3.235v6.226c0 1.621 1.152 3.026 2.76 3.235.577.075 1.157.14 1.74.194V21l4.155-4.155"></path>
+                          </svg>
+                    </div>
+                    <div>
+                        <h3>We are now available </h3>
+                        <p class="text-slate-600 ">Call us +098776543321 for contact with us</p>
+                    </div>
+                    <a href="tel:+0987654321" class="absolute inset-0"></a>
+                </div>
+                <div class="relative p-8 border rounded-xl flex gap-4 bg-white hover:shadow-lg">
+                    <div>
+                        <svg class="w-12 h-12 text-blue-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M20.25 8.511c.884.284 1.5 1.128 1.5 2.097v4.286c0 1.136-.847 2.1-1.98 2.193-.34.027-.68.052-1.02.072v3.091l-3-3c-1.354 0-2.694-.055-4.02-.163a2.115 2.115 0 01-.825-.242m9.345-8.334a2.126 2.126 0 00-.476-.095 48.64 48.64 0 00-8.048 0c-1.131.094-1.976 1.057-1.976 2.192v4.286c0 .837.46 1.58 1.155 1.951m9.345-8.334V6.637c0-1.621-1.152-3.026-2.76-3.235A48.455 48.455 0 0011.25 3c-2.115 0-4.198.137-6.24.402-1.608.209-2.76 1.614-2.76 3.235v6.226c0 1.621 1.152 3.026 2.76 3.235.577.075 1.157.14 1.74.194V21l4.155-4.155"></path>
+                          </svg>
+                    </div>
+                    <div>
+                        <h3>We are now available </h3>
+                        <p class="text-slate-600">Call us +098776543321 for contact with us</p>
+                    </div>
+                    <a href="tel:+0987654321" class="absolute inset-0"></a>
+                </div>
+                <div class="relative p-8 border rounded-xl flex gap-4 bg-white hover:shadow-lg">
+                    <div>
+                        <svg class="w-12 h-12 text-blue-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M20.25 8.511c.884.284 1.5 1.128 1.5 2.097v4.286c0 1.136-.847 2.1-1.98 2.193-.34.027-.68.052-1.02.072v3.091l-3-3c-1.354 0-2.694-.055-4.02-.163a2.115 2.115 0 01-.825-.242m9.345-8.334a2.126 2.126 0 00-.476-.095 48.64 48.64 0 00-8.048 0c-1.131.094-1.976 1.057-1.976 2.192v4.286c0 .837.46 1.58 1.155 1.951m9.345-8.334V6.637c0-1.621-1.152-3.026-2.76-3.235A48.455 48.455 0 0011.25 3c-2.115 0-4.198.137-6.24.402-1.608.209-2.76 1.614-2.76 3.235v6.226c0 1.621 1.152 3.026 2.76 3.235.577.075 1.157.14 1.74.194V21l4.155-4.155"></path>
+                          </svg>
+                    </div>
+                    <div>
+                        <h3>We are now available </h3>
+                        <p class="text-slate-600">Call us +098776543321 for contact with us</p>
+                    </div>
+                    <a href="tel:+0987654321" class="absolute inset-0"></a>
+                </div>
+           </div>
+        </section>
+
+        <section class="min-h-screen w-full flex flex-col items-center p-16 space-y-10">
+            <h2 class="text-5xl font-extrabold">Start Planning Your Trip</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <div class="flex-1 w-full  grid grid-cols-10 grid-rows-2 gap-10">
+                <div class="relative overflow-hidden bg-slate-100 col-span-4 row-span-2 rounded-tl-max rounded-br-max">
+                    <img src="../src/img/city1.jpg" alt="city" class="object-cover">
+                    <article class="absolute inset-0 text-white p-10  flex flex-col justify-center">
+                        <span class="uppercase">Up To</span>
+                        <span class=" text-6xl">50</span>
+
+                            <span>%</span>
+                            <span>OFF</span>
+    
+                        <h3 class="text-2xl inline-block">Holiday <br> Package</h3>
+                    </article>
+                </div>
+                <div class="relative overflow-hidden w-full col-span-3 rounded-5xl" >
+                    <img src="../src/img/city1.jpg" alt="city" class="absolute object-cover">
+                    <article class="absolute inset-0 text-white p-10 flex flex-col justify-center">
+                        <span class="uppercase">Up To</span>
+                        <span class="inline-block text-6xl">50</span>
+                        <h3 class="text-2xl inline-block">Holiday <br> Package</h3>
+                    </article>
+                </div>
+                <div class="relative  w-full overflow-hidden bg-slate-100 col-span-3 rounded-5xl">
+                
+                    <img src="../src/img/city1.jpg" alt="city" class="absolute inset-0">
+                </div>
+                <div class="relative overflow-hidden bg-slate-100 col-span-3 rounded-5xl">
+                    
+                    <img src="../src/img/city1.jpg" alt="city" class="absolute inset-0">
+                </div>
+                <div class="relative  overflow-hidden bg-slate-100 col-span-3 rounded-5xl">
+                
+                    <img src="../src/img/city1.jpg" alt="city" class="absolute inset-0 object-center">
+                </div>
+            </div>
+        </section>
+
+        <section class="min-h-screen w-full flex flex-col items-center p-16 space-y-10">
+            <h2 class="text-5xl font-extrabold">Explore our flight Offer Deals</h2>
+            <nav class="flex gap-8 shadow-md rounded-md py-4 px-16 border">
+                <button type="button" class="py-2 px-4 text-xl bg-blue-600 border rounded text-white ">Flights</button>
+                <button type="button" class="py-2 px-4 text-xl border rounded-md text-black ">Hotels</button>
+                <button type="button" class="py-2 px-4 text-xl  border rounded-md text-black">Car rent</button>
+                <button type="button" class="py-2 px-4 text-xl  border rounded-md text-black">Tours</button>
+            </nav>
+            <div class="w-full min-h-screen grid grid-cols-4 grid-rows-2 gap-6">
+              <div class="flex flex-col bg-white rounded-3xl overflow-hidden shadow-2xl col-span-2 row-span-2">
+                <div class="flex-1 overflow-hidden max-h-96 w-full">
+                    <img src="../src/img/city1.jpg" alt="city imgae" class="">
+                </div>
+                <div class="px-8 py-16 space-y-4  ">
+                    <h3 class="text-slate-500 text-xl">Business Class</h3>
+                    <p class="text-5xl font-semibold">Dubai to india</p>
+                    <p class="flex gap-8 text-xl text-slate-500">
+                        <span>01 June 2023</span>
+                        <span>04 June 2023</span>
+                        <span>1 seat</span>
+                    </p>
+                    <p class="py-4">
+                        <span class="text-blue-500 text-4xl">$750</span>
+                        <span class="text-slate-500 text-xl">Per Day</span>
+                    </p>
+                    <a href="#" class="block text-xl text-center hover:bg-blue-500 hover:border-transparent hover:text-white py-2 w-full border rounded-full border-black">Book Now</a>
+                </div>
+              </div>
+              <div class="flex flex-col bg-white rounded-3xl overflow-hidden shadow-2xl ">
+                <div class="overflow-hidden h-52 w-full">
+                    <img src="../src/img/city1.jpg" alt="city imgae" class="object-cover">
+                </div>
+                <div class="px-4 py-4 space-y-px  ">
+                    <h3 class="text-slate-500">Business Class</h3>
+                    <p class="text-xl font-semibold">Dubai to india</p>
+                    <p class="flex gap-4 text-slate-500 text-xs">
+                        <span>01 June 2023</span>
+                        <span>04 June 2023</span>
+                        <span>1 seat</span>
+                    </p>
+                    <p class="py-1">
+                        <span class="text-blue-500 text-xl">$750</span>
+                        <span class="text-slate-500 text-md">Per Day</span>
+                    </p>
+                    <a href="#" class="block text-center hover:bg-blue-500 hover:border-transparent hover:text-white py-1 w-full border rounded-full border-black">Book Now</a>
+                </div>
+              </div>
+              <div class="flex flex-col bg-white rounded-3xl overflow-hidden shadow-2xl ">
+                <div class="overflow-hidden h-52 w-full">
+                    <img src="../src/img/city1.jpg" alt="city imgae" class="object-cover">
+                </div>
+                <div class="px-4 py-4 space-y-px  ">
+                    <h3 class="text-slate-500">Business Class</h3>
+                    <p class="text-xl font-semibold">Dubai to india</p>
+                    <p class="flex gap-4 text-slate-500 text-xs">
+                        <span>01 June 2023</span>
+                        <span>04 June 2023</span>
+                        <span>1 seat</span>
+                    </p>
+                    <p class="py-1">
+                        <span class="text-blue-500 text-xl">$750</span>
+                        <span class="text-slate-500 text-md">Per Day</span>
+                    </p>
+                    <a href="#" class="block text-center hover:bg-blue-500 hover:border-transparent hover:text-white py-1 w-full border rounded-full border-black">Book Now</a>
+                </div>
+              </div>
+              <div class="flex flex-col bg-white rounded-3xl overflow-hidden shadow-2xl ">
+                <div class="overflow-hidden h-52 w-full">
+                    <img src="../src/img/city1.jpg" alt="city imgae" class="object-cover">
+                </div>
+                <div class="px-4 py-4 space-y-px  ">
+                    <h3 class="text-slate-500">Business Class</h3>
+                    <p class="text-xl font-semibold">Dubai to india</p>
+                    <p class="flex gap-4 text-slate-500 text-xs">
+                        <span>01 June 2023</span>
+                        <span>04 June 2023</span>
+                        <span>1 seat</span>
+                    </p>
+                    <p class="py-1">
+                        <span class="text-blue-500 text-xl">$750</span>
+                        <span class="text-slate-500 text-md">Per Day</span>
+                    </p>
+                    <a href="#" class="block text-center hover:bg-blue-500 hover:border-transparent hover:text-white py-1 w-full border rounded-full border-black">Book Now</a>
+                </div>
+              </div>
+              <div class="flex flex-col bg-white rounded-3xl overflow-hidden shadow-2xl ">
+                <div class="overflow-hidden h-52 w-full">
+                    <img src="../src/img/city1.jpg" alt="city imgae" class="object-cover">
+                </div>
+                <div class="px-4 py-4 space-y-px  ">
+                    <h3 class="text-slate-500">Business Class</h3>
+                    <p class="text-xl font-semibold">Dubai to india</p>
+                    <p class="flex gap-4 text-slate-500 text-xs">
+                        <span>01 June 2023</span>
+                        <span>04 June 2023</span>
+                        <span>1 seat</span>
+                    </p>
+                    <p class="py-1">
+                        <span class="text-blue-500 text-xl">$750</span>
+                        <span class="text-slate-500 text-md">Per Day</span>
+                    </p>
+                    <a href="#" class="block text-center hover:bg-blue-500 hover:border-transparent hover:text-white py-1 w-full border rounded-full border-black">Book Now</a>
+                </div>
+              </div>
+                
+            </div>
+        </section>
+        <section class="min-h-screen w-full p-16 flex gap-8">
+            <div class="flex-1 text-slate-500 space-y-6">
+                <h2 class="font-extrabold text-5xl text-black">Latest Travel Blog</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, nam! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate, necessitatibus?
+                </p>
+                <article class="flex items-center gap-8 p-4 bg-white shadow hover:shadow-xl rounded-xl">
+                    <div class="relative h-24 aspect-square rounded-md overflow-hidden">
+                        <img src="../src/img/person.jpg" alt="person" class="absolute h-full object-cover">
+                    </div>
+                    <div class="flex-1 flex flex-col gap-2">
+                        <h3 class="text-black font-semibold">Amazing Tour</h3>
+                        <p class="text-sm flex-1">Lorem ipsum dolor sit.
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, ut!
+                        </p>
+                        <div class="justify-self-end flex justify-between">
+                            <span>September 11,2023</span>
+                            <span>1 comment</span>
+                            <span>20 likes</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="flex items-center gap-8 p-4 bg-white shadow hover:shadow-xl rounded-xl">
+                    <div class="relative h-24 aspect-square rounded-md overflow-hidden">
+                        <img src="../src/img/person.jpg" alt="person" class="absolute h-full object-cover">
+                    </div> 
+                    <div class="flex-1 flex flex-col gap-2">
+                        <h3 class="text-black font-semibold">Amazing Tour</h3>
+                        <p class="text-sm flex-1">Lorem ipsum dolor sit.
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, ut!
+                        </p>
+                        <div class="justify-self-end flex justify-between">
+                            <span>September 11,2023</span>
+                            <span>1 comment</span>
+                            <span>20 likes</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <div class="flex-1">
+                <img src="../src/img/hotailballon.png" alt="world tour related image">
+            </div>
+        </section>
+        
+        <section class="p-16 min-h-screen flex flex-col gap-8 items-center">
+            <h2 class="text-5xl font-extrabold text-black">Our Traveler Reviews</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem, amet?</p>
+            <div class=" flex justify-between gap-8">
+                <blockquote class="max-w-sm flex flex-col gap-2 items-center justify-center py-6 rounded-lg px-4 bg-slate-100 shadow-md">
+                    <header class="flex flex-col items-center gap-2">
+                        <div class="bg-slate-200 border-4 border-white w-20 h-20 rounded-full shadow-md">
+
+                        </div>
+                        <h3>Holend Canals</h3>
+                        <span class="flex gap-1">
+                           <span class="text-blue-500">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" class="h-3 w-3"><path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z" clip-rule="evenodd"></path></svg>
+                           </span>
+                           <span class="text-blue-500">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" class="h-3 w-3"><path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z" clip-rule="evenodd"></path></svg>
+                           </span>
+                           <span class="text-blue-500">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" class="h-3 w-3"><path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z" clip-rule="evenodd"></path></svg>
+                           </span>
+                           <span class="text-blue-500">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" class="h-3 w-3"><path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z" clip-rule="evenodd"></path></svg>
+                           </span>
+                           <span class="text-blue-500">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" class="h-3 w-3"><path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z" clip-rule="evenodd"></path></svg>
+                           </span>
+                        </span>
+                    </header>
+                    <p class="text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, et?</p>
+                </blockquote>
+                <blockquote class="max-w-sm flex flex-col gap-2 items-center justify-center py-6 rounded-lg px-4 bg-slate-100 shadow-md">
+                    <header class="flex flex-col items-center gap-2">
+                        <div class="bg-slate-200 border-4 border-white w-20 h-20 rounded-full shadow-md">
+
+                        </div>
+                        <h3>Holend Canals</h3>
+                        <span class="flex gap-1">
+                           <span class="text-blue-500">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" class="h-3 w-3"><path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z" clip-rule="evenodd"></path></svg>
+                           </span>
+                           <span class="text-blue-500">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" class="h-3 w-3"><path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z" clip-rule="evenodd"></path></svg>
+                           </span>
+                           <span class="text-blue-500">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" class="h-3 w-3"><path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z" clip-rule="evenodd"></path></svg>
+                           </span>
+                           <span class="text-blue-500">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" class="h-3 w-3"><path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z" clip-rule="evenodd"></path></svg>
+                           </span>
+                           <span class="text-blue-500">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" class="h-3 w-3"><path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z" clip-rule="evenodd"></path></svg>
+                           </span>
+                        </span>
+                    </header>
+                    <p class="text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, et?</p>
+                </blockquote>
+                <blockquote class="max-w-sm flex flex-col gap-2 items-center justify-center py-6 rounded-lg px-4 bg-slate-100 shadow-md">
+                    <header class="flex flex-col items-center gap-2">
+                        <div class="bg-slate-200 border-4 border-white w-20 h-20 rounded-full shadow-md">
+
+                        </div>
+                        <h3>Holend Canals</h3>
+                        <span class="flex gap-1">
+                           <span class="text-blue-500">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" class="h-3 w-3"><path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z" clip-rule="evenodd"></path></svg>
+                           </span>
+                           <span class="text-blue-500">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" class="h-3 w-3"><path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z" clip-rule="evenodd"></path></svg>
+                           </span>
+                           <span class="text-blue-500">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" class="h-3 w-3"><path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z" clip-rule="evenodd"></path></svg>
+                           </span>
+                           <span class="text-blue-500">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" class="h-3 w-3"><path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z" clip-rule="evenodd"></path></svg>
+                           </span>
+                           <span class="text-blue-500">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" class="h-3 w-3"><path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z" clip-rule="evenodd"></path></svg>
+                           </span>
+                        </span>
+                    </header>
+                    <p class="text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, et?</p>
+                </blockquote>
+            </div>
+            <div>
+                <span class="flex gap-2">
+                    <span class="h-2 w-2 rounded-full bg-blue-500"></span>
+                    <span class="h-2 w-2 rounded-full bg-slate-300"></span>
+                    <span class="h-2 w-2 rounded-full bg-slate-300"></span>
+                </span>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
