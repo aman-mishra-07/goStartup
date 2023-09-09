@@ -18,16 +18,16 @@
         <header
             class="w-full sticky top-0 left-0 z-50 flex justify-center items-center py-4 sm:pt-10 sm:pb-5 bg-slate-50 border-b">
             <nav class="">
-                <div class="w-full border-b border-dashed translate-y-2.5 relative" role="progressbar">
-                    <div class="absolute h-px w-[33%] bg-lightBlue" aria-describedby="progressbar"></div>
+                <div class="w-full border-b border-dashed translate-y-2.5 relative" aria-label="progressbar" role="progressbar">
+                    <div class="absolute h-px w-[33%] bg-blue-500" aria-describedby="progressbar"></div>
                 </div>
                 <ul class="flex items-center gap-10 md:gap-44">
                     <li>
                         <a href="#"
-                            class="relative group flex items-center justify-center bg-white rounded-full border border-lightBlue h-5 w-5">
+                            class="relative group flex items-center justify-center bg-white rounded-full border border-blue-500 h-5 w-5">
                             <span
-                                class="hidden md:block absolute -top-8 whitespace-nowrap text-lg font-medium text-lightBlue">Summary</span>
-                            <span class="h-2 w-2 bg-lightBlue visible rounded-full"> </span>
+                                class="hidden md:block absolute -top-8 whitespace-nowrap text-lg font-medium text-blue-500">Summary</span>
+                            <span class="h-2 w-2 bg-blue-500 visible rounded-full"> </span>
                         </a>
                     </li>
                     <li>
@@ -73,7 +73,7 @@
                                 Oval French Cut Halo Engagement Set In 14K White Gold With A
                                 1.00 Ct. H-Color VS2-Clarity Emerald Cut Diamond
                             </h2>
-                            <button type="button" name="Remove1" class="flex gap-1 items-center p-1">
+                            <button type="button" aria-label="Remove1" name="Remove1" class="flex gap-1 items-center p-1">
                                 <span class="h-4 w-4 bg-black rounded-full text-white flex items-center justify-center">
                                     <svg class="w-4 h-4" fill="currentColor" xmlns="http://www.w3.org/2000/svg"
                                         viewBox="0 0 20 20">
@@ -85,25 +85,25 @@
                                 <span class="hidden sm:block">Remove</span>
                             </button>
                         </div>
-                        <span class="text-sm font-medium text-slate-500">Item-code # : <span>42GF45</span></span>
+                        <span class="text-sm font-medium text-slate-600">Item-code # : <span>42GF45</span></span>
                         <p class="text-lg font-semibold">$2324</p>
                         <form action="#" class="space-y-2 mt-2">
                             <div class="flex flex-wrap gap-4">
                                 <div class="grow shrink-0 flex flex-col gap-1">
-                                    <label for="ring-size" class="text-sm text-slate-500 font-semibold">Ring Size</label>
-                                    <select name="ringSize" id="ring-size" class="border p-1 text-sm text-slate-500">
-                                        <option value="select">Select size</option>
+                                    <label for="ring-size" class="text-sm text-slate-600 font-semibold">Ring Size</label>
+                                    <select name="ringSize" id="ring-size" class="border p-1 text-sm text-slate-600">
+                                        <option value="select"></option>
                                         <option value="1">1</option>
                                         <option value="2">2</option>
                                         <option value="3">3</option>
                                     </select>
                                 </div>
                                 <div class="flex flex-col gap-1">
-                                    <h3 aria-labelledby="quantity" class="text-sm text-slate-500 font-semibold">
+                                    <h3 aria-labelledby="quantity" class="text-sm text-slate-600 font-semibold">
                                         <span>Quantity</span>
                                     </h3>
                                     <div class="flex items-center gap-2 py-0.5 px-3 border h-full w-fit">
-                                        <button type="button" name="incrementCounter" class="">
+                                        <button type="button" name="decrementCounter" aria-label="decrementCounter" class="">
                                             <span class="flex justify-center items-center text-slate-400">
                                                 <svg class="w-4 h-4" fill="currentColor"
                                                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
@@ -114,7 +114,7 @@
                                             </span>
                                         </button>
                                         <span aria-label="quantity">1</span>
-                                        <button type="button" name="decrementCounter" class="">
+                                        <button type="button" name="incrementCounter" aria-label="incrementCounter" class="">
                                             <span class="flex justify-center items-center text-slate-400">
                                                 <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg"
                                                     fill="currentColor" viewBox="0 0 16 16">
@@ -128,7 +128,7 @@
                                 </div>
 
                                 <div class="grow shrink-0 flex flex-col gap-2">
-                                    <p class="text-sm text-slate-500 font-semibold">
+                                    <p class="text-sm text-slate-600 font-semibold">
                                         Would You Like to add cebnter stone ?
                                     </p>
                                     <div class="flex gap-2 items-center">
@@ -144,7 +144,7 @@
                             <div class="space-y-1">
                                 <h3 class="flex gap-2 items-center">
                                     <span class="text-sm font-medium">Select protection plan</span>
-                                    <span class="text-lightBlue">
+                                    <span class="text-blue-500">
                                         <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                             stroke-linecap="round" stroke-linejoin="round">
@@ -161,7 +161,7 @@
                                     <label for="noPlans" class="">
                                         <input type="radio" name="plans" id="noPlans" class="sr-only peer" checked />
                                         <span
-                                            class="flex items-center justify-center gap-1 text-sm py-1 border peer-checked:bg-lightBlue peer-checked:text-white">
+                                            class="flex items-center justify-center gap-1 text-sm py-1 border peer-checked:bg-blue-500 font-medium peer-checked:text-white">
                                             <svg class="w-6 h-6 text-white" width="24" height="24" viewBox="0 0 24 24"
                                                 fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <path
@@ -175,7 +175,7 @@
                                     <label for="plan2" class="">
                                         <input type="radio" name="plans" id="plan2" class="sr-only peer" />
                                         <span
-                                            class="flex items-center justify-center gap-1 text-sm py-1 border peer-checked:bg-lightBlue peer-checked:text-white">
+                                            class="flex items-center justify-center gap-1 text-sm py-1 border peer-checked:bg-blue-500 font-medium peer-checked:text-white">
                                             <svg class="w-6 h-6 text-white" width="24" height="24" viewBox="0 0 24 24"
                                                 fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <path
@@ -190,7 +190,7 @@
                                     <label for="plan3" class="">
                                         <input type="radio" name="plans" id="plan3" class="sr-only peer" />
                                         <span
-                                            class="flex items-center justify-center gap-1 text-sm py-1 border peer-checked:bg-lightBlue peer-checked:text-white">
+                                            class="flex items-center justify-center gap-1 text-sm py-1 border peer-checked:bg-blue-500 font-medium peer-checked:text-white">
                                             <svg class="w-6 h-6 text-white" width="24" height="24" viewBox="0 0 24 24"
                                                 fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <path
@@ -205,7 +205,7 @@
                                 <div>
                                     <label for="addEngrave" class="flex items-center gap-1 text-sm">
                                         <span>Want to add Engraveing?</span>
-                                        <span class="flex items-center text-lightBlue space-x-1">
+                                        <span class="flex items-center text-blue-500 space-x-1">
                                             <input type="checkbox" name="addEngrave" id="addEngrave"
                                                 class="sr-only peer" />
                                             <span>
@@ -225,7 +225,7 @@
                                                     <h4 class="text-lg uppercase font-semibold">
                                                         Engrave Your Ring
                                                     </h4>
-                                                    <p class="text-sm text-slate-500 text-center">
+                                                    <p class="text-sm text-slate-600 text-center">
                                                         You can choose between our standard block font or
                                                         a script font as shown here and enter your text
                                                         below. For enggraving of more than fourteen
@@ -256,23 +256,23 @@
                                                                     <input type="checkbox" name="EngravingTextType"
                                                                         id="EngravingBlock" class="sr-only peer" />
                                                                     <span
-                                                                        class="flex items-center justify-center p-2 uppercase border border-black text-slate-500 font-medium">Block</span>
+                                                                        class="flex items-center justify-center p-2 uppercase border border-black text-slate-600 font-medium">Block</span>
                                                                 </label>
                                                                 <label for="EngravingScript" class="flex-1">
                                                                     <input type="checkbox" name="EngravingTextType"
                                                                         id="EngravingScript" class="sr-only peer" />
                                                                     <span
-                                                                        class="flex items-center justify-center p-2 uppercase border border-black text-slate-500 font-medium">Script</span>
+                                                                        class="flex items-center justify-center p-2 uppercase border border-black text-slate-600 font-medium">Script</span>
                                                                 </label>
                                                             </div>
                                                             <div class="w-full">
                                                                 <button type="submit"
-                                                                    class="w-full rounded text-white font-semibold bg-lightBlue py-2 px-3">
+                                                                    class="w-full rounded text-white font-semibold bg-blue-500 py-2 px-3">
                                                                     Submit
                                                                 </button>
                                                             </div>
                                                             <div class="absolute -top-2 right-2">
-                                                                <button type="button">
+                                                                <button type="button" name="closeModal" aria-label="closeModal">
                                                                     <span class="text-black">
                                                                         <svg class="w-5 h-5" fill="currentColor"
                                                                             xmlns="http://www.w3.org/2000/svg"
@@ -379,8 +379,9 @@
                                     <h3>Complementry Apraisal</h3>
                                     <p>$50.00</p>
                                 </div>
-                                <span class="text-sm text-slate-500">item :#0987-665abs</span>
+                                <span class="text-sm text-slate-600">item :#0987-665abs</span>
                                 <button type="button"
+                                    name="remove6"
                                     class="absolute -top-2 -right-2 hidden group-hover:flex gap-1 items-center p-1">
                                     <span
                                         class="h-4 w-4 bg-black rounded-full text-white flex items-center justify-center">
@@ -403,8 +404,9 @@
                                     <h3>Complementry Apraisal</h3>
                                     <p>$50.00</p>
                                 </div>
-                                <span class="text-sm text-slate-500">item :#0987-665abs</span>
+                                <span class="text-sm text-slate-600">item :#0987-665abs</span>
                                 <button type="button"
+                                    name="Remove7"
                                     class="absolute -top-2 -right-2 hidden group-hover:flex gap-1 items-center p-1">
                                     <span
                                         class="h-4 w-4 bg-black rounded-full text-white flex items-center justify-center">
@@ -430,7 +432,7 @@
                                 Oval French Cut Halo Engagement Set In 14K White Gold With A
                                 1.00 Ct. H-Color VS2-Clarity Emerald Cut Diamond
                             </h2>
-                            <button type="button" name="Remove2" class="flex gap-1 items-center p-1">
+                            <button type="button" aria-label="Remove2" name="Remove2" class="flex gap-1 items-center p-1">
                                 <span class="h-4 w-4 bg-black rounded-full text-white flex items-center justify-center">
                                     <svg class="w-4 h-4" fill="currentColor" xmlns="http://www.w3.org/2000/svg"
                                         viewBox="0 0 20 20">
@@ -442,14 +444,14 @@
                                 <span class="hidden sm:block">Remove</span>
                             </button>
                         </div>
-                        <span class="text-sm font-medium text-slate-500">Item-code # : <span>42GF45</span></span>
+                        <span class="text-sm font-medium text-slate-600">Item-code # : <span>42GF45</span></span>
                         <p class="text-lg font-semibold">$2324</p>
                         <form action="#" class="space-y-2 mt-2">
                             <div class="flex flex-wrap gap-4">
                                 <div class="grow shrink-0 flex flex-col gap-1">
-                                    <label for="ring-size" class="text-sm text-slate-500 font-semibold">Ring
+                                    <label for="ring-size2" class="text-sm text-slate-600 font-semibold">Ring
                                         Size</label>
-                                    <select name="ringSize" id="ring-size" class="border p-1 text-sm text-slate-500">
+                                    <select name="ringSize" id="ring-size2" class="border p-1 text-sm text-slate-600">
                                         <option value="select">Select size</option>
                                         <option value="1">1</option>
                                         <option value="2">2</option>
@@ -457,11 +459,11 @@
                                     </select>
                                 </div>
                                 <div class="flex flex-col gap-1">
-                                    <h3 aria-labelledby="quantity" class="text-sm text-slate-500 font-semibold">
-                                        Quantity
+                                    <h3 aria-labelledby="quantity" class="text-sm text-slate-600 font-semibold">
+                                       <span> Quantity</span>
                                     </h3>
                                     <div class="flex items-center gap-2 py-0.5 px-3 border h-full w-fit">
-                                        <button type="button" class="">
+                                        <button type="button" class="" aria-label="decrementCounter1" name="decrementCounter1">
                                             <span class="flex justify-center items-center text-slate-400">
                                                 <svg class="w-4 h-4" fill="currentColor"
                                                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
@@ -472,7 +474,7 @@
                                             </span>
                                         </button>
                                         <span id="quantity">1</span>
-                                        <button type="button" class="">
+                                        <button type="button" class=""aria-label="incrementCounter1" name="incrementCounter1">
                                             <span class="flex justify-center items-center text-slate-400">
                                                 <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg"
                                                     fill="currentColor" viewBox="0 0 16 16">
@@ -486,7 +488,7 @@
                                 </div>
 
                                 <div class="grow shrink-0 flex flex-col gap-2">
-                                    <p class="text-sm text-slate-500 font-semibold">
+                                    <p class="text-sm text-slate-600 font-semibold">
                                         Would You Like to add cebnter stone ?
                                     </p>
                                     <div class="flex gap-2 items-center">
@@ -502,7 +504,7 @@
                             <div class="space-y-1">
                                 <h3 class="flex gap-2 items-center">
                                     <span class="text-sm font-medium">Select protection plan</span>
-                                    <span class="text-lightBlue">
+                                    <span class="text-blue-500">
                                         <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                             stroke-linecap="round" stroke-linejoin="round">
@@ -519,7 +521,7 @@
                                     <label for="noPlans" class="">
                                         <input type="radio" name="plans" id="noPlans" class="sr-only peer" checked />
                                         <span
-                                            class="flex items-center justify-center gap-1 text-sm py-1 border peer-checked:bg-lightBlue peer-checked:text-white">
+                                            class="flex items-center justify-center gap-1 text-sm py-1 border peer-checked:bg-blue-500 font-medium peer-checked:text-white">
                                             <svg class="w-6 h-6 text-white" width="24" height="24" viewBox="0 0 24 24"
                                                 fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <path
@@ -533,7 +535,7 @@
                                     <label for="plan2" class="">
                                         <input type="radio" name="plans" id="plan2" class="sr-only peer" />
                                         <span
-                                            class="flex items-center justify-center gap-1 text-sm py-1 border peer-checked:bg-lightBlue peer-checked:text-white">
+                                            class="flex items-center justify-center gap-1 text-sm py-1 border peer-checked:bg-blue-500 font-medium peer-checked:text-white">
                                             <svg class="w-6 h-6 text-white" width="24" height="24" viewBox="0 0 24 24"
                                                 fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <path
@@ -548,7 +550,7 @@
                                     <label for="plan3" class="">
                                         <input type="radio" name="plans" id="plan3" class="sr-only peer" />
                                         <span
-                                            class="flex items-center justify-center gap-1 text-sm py-1 border peer-checked:bg-lightBlue peer-checked:text-white">
+                                            class="flex items-center justify-center gap-1 text-sm py-1 border peer-checked:bg-blue-500 font-medium peer-checked:text-white">
                                             <svg class="w-6 h-6 text-white" width="24" height="24" viewBox="0 0 24 24"
                                                 fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <path
@@ -563,7 +565,7 @@
                                 <div>
                                     <label for="addEngrave" class="flex items-center gap-1 text-sm">
                                         <span>Want to add Engraveing?</span>
-                                        <span class="flex items-center text-lightBlue space-x-1">
+                                        <span class="flex items-center text-blue-500 space-x-1">
                                             <input type="checkbox" name="addEngrave" id="addEngrave"
                                                 class="sr-only peer" />
                                             <span>
@@ -583,7 +585,7 @@
                                                     <h4 class="text-lg uppercase font-semibold">
                                                         Engrave Your Ring
                                                     </h4>
-                                                    <p class="text-sm text-slate-500 text-center">
+                                                    <p class="text-sm text-slate-600 text-center">
                                                         You can choose between our standard block font or
                                                         a script font as shown here and enter your text
                                                         below. For enggraving of more than fourteen
@@ -614,18 +616,18 @@
                                                                     <input type="checkbox" name="EngravingTextType"
                                                                         id="EngravingBlock" class="sr-only peer" />
                                                                     <span
-                                                                        class="flex items-center justify-center p-2 uppercase border border-black text-slate-500 font-medium">Block</span>
+                                                                        class="flex items-center justify-center p-2 uppercase border border-black text-slate-600 font-medium">Block</span>
                                                                 </label>
                                                                 <label for="EngravingScript" class="flex-1">
                                                                     <input type="checkbox" name="EngravingTextType"
                                                                         id="EngravingScript" class="sr-only peer" />
                                                                     <span
-                                                                        class="flex items-center justify-center p-2 uppercase border border-black text-slate-500 font-medium">Script</span>
+                                                                        class="flex items-center justify-center p-2 uppercase border border-black text-slate-600 font-medium">Script</span>
                                                                 </label>
                                                             </div>
                                                             <div class="w-full">
                                                                 <button type="submit"
-                                                                    class="w-full rounded text-white font-semibold bg-lightBlue py-2 px-3">
+                                                                    class="w-full rounded text-white font-semibold bg-blue-500 py-2 px-3">
                                                                     Submit
                                                                 </button>
                                                             </div>
@@ -700,6 +702,7 @@
                                 </div>
                                 <button type="button"
                                     name="leftScroll1"
+                                    aria-label="leftScroll1"
                                     class="absolute top-1/2 -translate-y-1/2 left-0 h-full bg-gradient-to-l from-transparent to-slate-200">
                                     <span
                                         class="flex justify-center items-center p-2 bg-black text-white rounded-full bg-opacity-80">
@@ -712,6 +715,7 @@
                                 </button>
                                 <button type="button"
                                     name="rightScroll1"
+                                    aria-label="rightScroll1"
                                     class="absolute top-1/2 -translate-y-1/2 h-full right-0 bg-gradient-to-r from-transparent to-slate-200">
                                     <span
                                         class="flex justify-center items-center p-2 bg-black text-white rounded-full bg-opacity-80">
@@ -735,7 +739,7 @@
                                     <h3>Complementry Apraisal</h3>
                                     <p>$50.00</p>
                                 </div>
-                                <span class="text-sm text-slate-500">item :#0987-665abs</span>
+                                <span class="text-sm text-slate-600">item :#0987-665abs</span>
                                 <button type="button"
                                     name="Remove3"
                                     class="absolute -top-2 -right-2 hidden group-hover:flex gap-1 items-center p-1">
@@ -760,7 +764,7 @@
                                     <h3>Complementry Apraisal</h3>
                                     <p>$50.00</p>
                                 </div>
-                                <span class="text-sm text-slate-500">item :#0987-665abs</span>
+                                <span class="text-sm text-slate-600">item :#0987-665abs</span>
                                 <button type="button"
                                     name="remove4"
                                     class="absolute -top-2 -right-2 hidden group-hover:flex gap-1 items-center p-1">
@@ -785,8 +789,9 @@
                                     <h3>Complementry Apraisal</h3>
                                     <p>$50.00</p>
                                 </div>
-                                <span class="text-sm text-slate-500">item :#0987-665abs</span>
+                                <span class="text-sm text-slate-600">item :#0987-665abs</span>
                                 <button type="button"
+                                    name="Remove5"
                                     class="absolute -top-2 -right-2 hidden group-hover:flex gap-1 items-center p-1">
                                     <span
                                         class="h-4 w-4 bg-black rounded-full text-white flex items-center justify-center">
@@ -815,7 +820,7 @@
                         <h3 class="text-lg font-semibold">Shipping</h3>
                         <div class="flex justify-between">
                             <div>
-                                <h4 class="text-sm text-slate-500">
+                                <h4 class="text-sm text-slate-600">
                                     Estimated Shipping Date
                                 </h4>
                                 <p>
@@ -823,11 +828,11 @@
                                 </p>
                             </div>
                             <div>
-                                <h4 class="text-sm text-slate-500">Shipping Method</h4>
+                                <h4 class="text-sm text-slate-600">Shipping Method</h4>
                                 <p>Free FedEx Overnigh</p>
                             </div>
                         </div>
-                        <div class="p-2 bg-slate-100 border rounded-md mt-4 text-slate-500 text-sm space-y-4">
+                        <div class="p-2 bg-slate-100 border rounded-md mt-4 text-slate-600 text-sm space-y-4">
                             <p class=" ">
                                 Lorem ipsum, dolor sit amet consectetur
                                 <span class="text-black font-normal">09877-65476</span> elit.
@@ -836,7 +841,7 @@
                             <div class="flex justify-between text-xs">
                                 <p>
                                     view our
-                                    <a href="#" class="text-lightBlue underline">Shipping Polocy and Expedite
+                                    <a href="#" class="text-blue-500 underline">Shipping Polocy and Expedite
                                         Options</a>
                                 </p>
                                 <p>
@@ -849,15 +854,15 @@
                     <div>
                         <dl class="divide-y">
                             <div class="flex justify-between py-2 sm:py-4">
-                                <dt class="text-slate-500 text-sm">Subtotal</dt>
+                                <dt class="text-slate-600 text-sm">Subtotal</dt>
                                 <dl class="font-semibold">$342.50</dl>
                             </div>
                             <div class="flex justify-between py-2 sm:py-4">
-                                <dt class="text-slate-500 text-sm">Shipping</dt>
+                                <dt class="text-slate-600 text-sm">Shipping</dt>
                                 <dl class="font-semibold">$10.5</dl>
                             </div>
                             <div class="flex justify-between py-2 sm:py-4">
-                                <dt class="text-slate-500 text-sm">Total Payble</dt>
+                                <dt class="text-slate-600 text-sm">Total Payble</dt>
                                 <dl class="font-semibold">$352.55</dl>
                             </div>
                         </dl>
@@ -868,11 +873,11 @@
                             <input type="text" name="couponCode" id="couponCode" placeholder="Enter Code"
                                 class="w-full border shadow rounded-md p-4" />
                             <button type="button"
-                                class="text-lightBlue text-sm absolute top-1/2 -translate-y-1/2 right-2">
+                                class="text-blue-500 text-sm absolute top-1/2 -translate-y-1/2 right-2">
                                 Apply
                             </button>
                         </div>
-                        <button type="submit" class="w-full py-4 text-white bg-lightBlue rounded-md">
+                        <button type="submit" class="w-full py-4 text-white bg-blue-500 rounded-md">
                             Continue
                         </button>
                     </div>
@@ -954,14 +959,14 @@
                     <h2 class="text-lg font-semibold">
                         Keep Your Jewellery sparkling and Safe
                     </h2>
-                    <p class="text-sm text-slate-500">
+                    <p class="text-sm text-slate-600">
                         Adiamor offer care plans and cleaners to offer you peace pf mind
                         when making your purchase
                     </p>
                 </div>
                 <div class="w-full flex md:items-center justify-between gap-4 flex-wrap">
-                    <a href="#" class="py-2 px-3 bg-lightBlue text-white text-sm">Purchase a Care Plan</a>
-                    <a href="#" class="text-lightBlue underline font-semibold text-sm pr-32 md:pr-0">Explore All</a>
+                    <a href="#" class="py-2 px-3 bg-blue-500 text-white text-sm">Purchase a Care Plan</a>
+                    <a href="#" class="text-blue-500 underline font-semibold text-sm pr-32 md:pr-0">Explore All</a>
                 </div>
 
                 <dl
@@ -974,7 +979,7 @@
                             <h3 class="font-medium">Foaming Cleaner</h3>
                             <p class="font-semibold">$12.00</p>
                             <a href="#"
-                                class="text-lightBlue border border-lightBlue py-1 px-2 w-full text-center rounded-md font-semibold hover:text-white hover:bg-lightBlue">Add
+                                class="text-blue-500 border border-blue-500 py-1 px-2 w-full text-center rounded-md font-semibold hover:text-white hover:bg-blue-500">Add
                                 to cart</a>
                         </dd>
                     </div>
@@ -986,7 +991,7 @@
                             <h3 class="font-medium">Foaming Cleaner</h3>
                             <p class="font-semibold">$12.00</p>
                             <a href="#"
-                                class="text-lightBlue border border-lightBlue py-1 px-2 w-full text-center rounded-md font-semibold hover:text-white hover:bg-lightBlue">Add
+                                class="text-blue-500 border border-blue-500 py-1 px-2 w-full text-center rounded-md font-semibold hover:text-white hover:bg-blue-500">Add
                                 to cart</a>
                         </dd>
                     </div>
@@ -998,7 +1003,7 @@
                             <h3 class="font-medium">Foaming Cleaner</h3>
                             <p class="font-semibold">$12.00</p>
                             <a href="#"
-                                class="text-lightBlue border border-lightBlue py-1 px-2 w-full text-center rounded-md font-semibold hover:text-white hover:bg-lightBlue">Add
+                                class="text-blue-500 border border-blue-500 py-1 px-2 w-full text-center rounded-md font-semibold hover:text-white hover:bg-blue-500">Add
                                 to cart</a>
                         </dd>
                     </div>
@@ -1010,7 +1015,7 @@
                             <h3 class="font-medium">Foaming Cleaner</h3>
                             <p class="font-semibold">$12.00</p>
                             <a href="#"
-                                class="text-lightBlue border border-lightBlue py-1 px-2 w-full text-center rounded-md font-semibold hover:text-white hover:bg-lightBlue">Add
+                                class="text-blue-500 border border-blue-500 py-1 px-2 w-full text-center rounded-md font-semibold hover:text-white hover:bg-blue-500">Add
                                 to cart</a>
                         </dd>
                     </div>
@@ -1022,7 +1027,7 @@
                             <h3 class="font-medium">Foaming Cleaner</h3>
                             <p class="font-semibold">$12.00</p>
                             <a href="#"
-                                class="text-lightBlue border border-lightBlue py-1 px-2 w-full text-center rounded-md font-semibold hover:text-white hover:bg-lightBlue">Add
+                                class="text-blue-500 border border-blue-500 py-1 px-2 w-full text-center rounded-md font-semibold hover:text-white hover:bg-blue-500">Add
                                 to cart</a>
                         </dd>
                     </div>
@@ -1034,7 +1039,7 @@
                             <h3 class="font-medium">Foaming Cleaner</h3>
                             <p class="font-semibold">$12.00</p>
                             <a href="#"
-                                class="text-lightBlue border border-lightBlue py-1 px-2 w-full text-center rounded-md font-semibold hover:text-white hover:bg-lightBlue">Add
+                                class="text-blue-500 border border-blue-500 py-1 px-2 w-full text-center rounded-md font-semibold hover:text-white hover:bg-blue-500">Add
                                 to cart</a>
                         </dd>
                     </div>
