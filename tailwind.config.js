@@ -6,13 +6,16 @@ module.exports = {
  
     extend: {
       fontFamily :{
-        'sans' : [ 'Poppins', 'sans-serif'],
-        'lexend' : ['Lexend', 'sans-serif'],
+        'sans' : [ 'jost', 'sans-serif'],
+       
       },
       borderRadius :{
-        '5xl':'4rem',
-        'max' : '8rem',
+       
+      },
+      colors :{
+        'lightBlue' : '#6497ce',
       }
+      
      
     },
   },
