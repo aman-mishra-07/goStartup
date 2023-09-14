@@ -3,3 +3,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+input[type="number"]::-webkit-inner-spin-button , input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+    
+}
+
+.hidden-scroll::-webkit-scrollbar{
+    height: 0;
+    margin: 0;
+}
